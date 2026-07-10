@@ -7970,16 +7970,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 127) (xy 27.94 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dff0759-4937-4f6c-a17e-99a4c0e0e8b0")
-	)
-	(wire
-		(pts
 			(xy 55.88 161.29) (xy 55.88 162.56)
 		)
 		(stroke
@@ -9400,6 +9390,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 121.92) (xy 53.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5980b74f-770f-4289-a0c8-56d37dd14749")
+	)
+	(wire
+		(pts
 			(xy 60.96 121.92) (xy 64.77 121.92)
 		)
 		(stroke
@@ -9477,16 +9477,6 @@
 			(type default)
 		)
 		(uuid "5d691301-1f5a-447d-8af7-44da87f5c16f")
-	)
-	(wire
-		(pts
-			(xy 21.59 121.92) (xy 53.34 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e39f929-8287-46ff-851a-0b96d4ea388b")
 	)
 	(wire
 		(pts
@@ -9617,16 +9607,6 @@
 			(type default)
 		)
 		(uuid "6419fc34-e780-4c2a-b0f5-70a5ae41994c")
-	)
-	(wire
-		(pts
-			(xy 25.4 124.46) (xy 21.59 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64461378-742c-4626-a84f-ce67df619ec5")
 	)
 	(wire
 		(pts
@@ -10157,6 +10137,16 @@
 			(type default)
 		)
 		(uuid "8343a117-0922-4d31-a51a-dcf508911c99")
+	)
+	(wire
+		(pts
+			(xy 21.59 127) (xy 27.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8365dc19-05c7-472d-8962-c805f5875751")
 	)
 	(wire
 		(pts
@@ -11847,6 +11837,16 @@
 			(type default)
 		)
 		(uuid "fc62f68a-269e-4a0e-8fe9-b65f9bb18dbd")
+	)
+	(wire
+		(pts
+			(xy 21.59 124.46) (xy 25.4 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6953ab-1f95-4abc-a452-24c5e16fc58a")
 	)
 	(wire
 		(pts
@@ -25502,7 +25502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G"
 			(at 377.19 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -26109,7 +26109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G"
 			(at 250.19 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -29572,8 +29572,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 16.51 124.46 0)
-		(mirror y)
+		(at 16.51 127 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29583,7 +29582,7 @@
 		(dnp no)
 		(uuid "f297d7cc-f4a6-40c3-b7f0-e4bb1c5551af")
 		(property "Reference" "J1"
-			(at 20.574 132.588 0)
+			(at 20.574 118.872 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29594,7 +29593,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 34.798 136.144 0)
+			(at 34.798 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29605,7 +29604,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal"
-			(at 16.51 124.46 0)
+			(at 16.51 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29616,7 +29615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 124.46 0)
+			(at 16.51 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29627,7 +29626,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 16.51 124.46 0)
+			(at 16.51 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
